@@ -1,1 +1,10 @@
 C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\bin\Debug\SysPharmacie.exe.config
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\bin\Debug\SysPharmacie.exe
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\bin\Debug\SysPharmacie.pdb
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\obj\Debug\SysPharmacie.csprojResolveAssemblyReference.cache
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\obj\Debug\SysPharmacie.ACCE01.resources
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\obj\Debug\SysPharmacie.MEDI01.resources
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\obj\Debug\SysPharmacie.Properties.Resources.resources
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\obj\Debug\SysPharmacie.csproj.GenerateResource.Cache
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\obj\Debug\SysPharmacie.exe
+C:\Users\Willis\Documents\TP2GenieLogiciel\SysPharmacie\SysPharmacie\obj\Debug\SysPharmacie.pdb
