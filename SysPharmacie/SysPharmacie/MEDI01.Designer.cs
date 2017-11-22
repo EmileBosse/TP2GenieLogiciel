@@ -36,6 +36,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.chbMedicamentActif = new System.Windows.Forms.CheckBox();
             this.udnUnitePosologie = new System.Windows.Forms.NumericUpDown();
             this.udnJoursPosologie = new System.Windows.Forms.NumericUpDown();
@@ -55,7 +56,7 @@
             this.btnRuptureStock = new System.Windows.Forms.Button();
             this.btnModifierMedicament = new System.Windows.Forms.Button();
             this.btnAjouterMedicament = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.udnUnitePosologie)).BeginInit();
@@ -148,6 +149,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(381, 210);
             this.panel2.TabIndex = 41;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(334, 151);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "jour(s)";
             // 
             // chbMedicamentActif
             // 
@@ -277,7 +287,7 @@
             this.btnRuptureStock.Name = "btnRuptureStock";
             this.btnRuptureStock.Size = new System.Drawing.Size(102, 23);
             this.btnRuptureStock.TabIndex = 44;
-            this.btnRuptureStock.Text = "Rupture de stock";
+            this.btnRuptureStock.Text = "Rapports";
             this.btnRuptureStock.UseVisualStyleBackColor = true;
             // 
             // btnModifierMedicament
@@ -298,20 +308,21 @@
             this.btnAjouterMedicament.Text = "Ajouter";
             this.btnAjouterMedicament.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // button2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(334, 151);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 49;
-            this.label3.Text = "jour(s)";
+            this.button2.Location = new System.Drawing.Point(651, 341);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 61;
+            this.button2.Text = "Retour";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // MEDI01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 376);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnRuptureStock);
             this.Controls.Add(this.btnModifierMedicament);
             this.Controls.Add(this.btnAjouterMedicament);
@@ -359,5 +370,6 @@
         private System.Windows.Forms.Button btnModifierMedicament;
         private System.Windows.Forms.Button btnAjouterMedicament;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
     }
 }

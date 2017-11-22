@@ -51,6 +51,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -263,11 +264,21 @@
             this.textBox3.Size = new System.Drawing.Size(208, 20);
             this.textBox3.TabIndex = 45;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(651, 341);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 61;
+            this.button2.Text = "Retour";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // MEDE01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 384);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnModifierMedicament);
             this.Controls.Add(this.btnAjouterMedicament);
             this.Controls.Add(this.panel2);
@@ -308,5 +319,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button2;
     }
 }

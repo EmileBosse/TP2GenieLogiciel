@@ -49,6 +49,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -243,18 +244,28 @@
             this.listBox1.Size = new System.Drawing.Size(308, 329);
             this.listBox1.TabIndex = 55;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(651, 310);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 60;
+            this.button2.Text = "Retour";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // PHAR01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 351);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnModifierMedicament);
             this.Controls.Add(this.btnAjouterMedicament);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.listBox1);
             this.Name = "PHAR01";
-            this.Text = "PHAR01";
+            this.Text = "Gestion de pharmacies";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -286,5 +297,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button2;
     }
 }

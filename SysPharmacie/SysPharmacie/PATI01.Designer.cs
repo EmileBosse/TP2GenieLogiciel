@@ -51,6 +51,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -263,11 +264,21 @@
             this.label4.TabIndex = 50;
             this.label4.Text = "Date naissance";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(651, 345);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 61;
+            this.button2.Text = "Retour";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // PATI01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 390);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnModifierMedicament);
             this.Controls.Add(this.btnAjouterMedicament);
             this.Controls.Add(this.panel2);
@@ -308,5 +319,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button2;
     }
 }

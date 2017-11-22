@@ -145,8 +145,8 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Items.AddRange(new object[] {
-            "1\t2017-01-01,",
-            "2 \t2017-02-02"});
+            "1\t2017-01-01\tGaston St-Pierre,",
+            "2 \t2017-02-02\tRoger Benoit"});
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(308, 537);
@@ -255,7 +255,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.listBox1);
             this.Name = "PRES01";
-            this.Text = "PRES01";
+            this.Text = "Gestion de prescriptions";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);

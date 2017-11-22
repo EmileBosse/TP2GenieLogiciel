@@ -99,7 +99,7 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtLogin);
             this.Name = "ACCE01";
-            this.Text = "ACCE01";
+            this.Text = "Connexion";
             this.ResumeLayout(false);
             this.PerformLayout();
 
