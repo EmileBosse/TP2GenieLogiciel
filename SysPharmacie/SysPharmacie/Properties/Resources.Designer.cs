@@ -103,6 +103,16 @@ namespace SysPharmacie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ic_note_add_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("ic_note_add_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic_person_black_48dp {
             get {
                 object obj = ResourceManager.GetObject("ic_person_black_48dp", resourceCulture);
