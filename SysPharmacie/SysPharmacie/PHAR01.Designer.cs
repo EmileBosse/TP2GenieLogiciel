@@ -1,6 +1,6 @@
 ﻿namespace SysPharmacie
 {
-    partial class PATI01
+    partial class PHAR01
     {
         /// <summary>
         /// Required designer variable.
@@ -47,36 +47,34 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnModifierMedicament
             // 
-            this.btnModifierMedicament.Location = new System.Drawing.Point(430, 345);
+            this.btnModifierMedicament.Location = new System.Drawing.Point(430, 341);
             this.btnModifierMedicament.Name = "btnModifierMedicament";
             this.btnModifierMedicament.Size = new System.Drawing.Size(75, 23);
-            this.btnModifierMedicament.TabIndex = 54;
+            this.btnModifierMedicament.TabIndex = 59;
             this.btnModifierMedicament.Text = "Modifier";
             this.btnModifierMedicament.UseVisualStyleBackColor = true;
             // 
             // btnAjouterMedicament
             // 
-            this.btnAjouterMedicament.Location = new System.Drawing.Point(345, 345);
+            this.btnAjouterMedicament.Location = new System.Drawing.Point(345, 341);
             this.btnAjouterMedicament.Name = "btnAjouterMedicament";
             this.btnAjouterMedicament.Size = new System.Drawing.Size(75, 23);
-            this.btnAjouterMedicament.TabIndex = 53;
+            this.btnAjouterMedicament.TabIndex = 58;
             this.btnAjouterMedicament.Text = "Ajouter";
             this.btnAjouterMedicament.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.textBox4);
             this.panel2.Controls.Add(this.chbMedicamentActif);
             this.panel2.Controls.Add(this.txtPrixVente);
             this.panel2.Controls.Add(this.txtEndroit);
@@ -88,15 +86,15 @@
             this.panel2.Controls.Add(this.lblManiereLivraison);
             this.panel2.Controls.Add(this.lblNom);
             this.panel2.Controls.Add(this.lblNumero);
-            this.panel2.Location = new System.Drawing.Point(345, 128);
+            this.panel2.Location = new System.Drawing.Point(345, 156);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(381, 211);
-            this.panel2.TabIndex = 52;
+            this.panel2.Size = new System.Drawing.Size(381, 179);
+            this.panel2.TabIndex = 57;
             // 
             // chbMedicamentActif
             // 
             this.chbMedicamentActif.AutoSize = true;
-            this.chbMedicamentActif.Location = new System.Drawing.Point(98, 175);
+            this.chbMedicamentActif.Location = new System.Drawing.Point(98, 149);
             this.chbMedicamentActif.Name = "chbMedicamentActif";
             this.chbMedicamentActif.Size = new System.Drawing.Size(47, 17);
             this.chbMedicamentActif.TabIndex = 48;
@@ -159,11 +157,11 @@
             // lblManiereLivraison
             // 
             this.lblManiereLivraison.AutoSize = true;
-            this.lblManiereLivraison.Location = new System.Drawing.Point(48, 74);
+            this.lblManiereLivraison.Location = new System.Drawing.Point(22, 74);
             this.lblManiereLivraison.Name = "lblManiereLivraison";
-            this.lblManiereLivraison.Size = new System.Drawing.Size(43, 13);
+            this.lblManiereLivraison.Size = new System.Drawing.Size(69, 13);
             this.lblManiereLivraison.TabIndex = 36;
-            this.lblManiereLivraison.Text = "Prénom";
+            this.lblManiereLivraison.Text = "Responsable";
             // 
             // lblNom
             // 
@@ -177,11 +175,11 @@
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
-            this.lblNumero.Location = new System.Drawing.Point(62, 22);
+            this.lblNumero.Location = new System.Drawing.Point(47, 22);
             this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(29, 13);
+            this.lblNumero.Size = new System.Drawing.Size(44, 13);
             this.lblNumero.TabIndex = 34;
-            this.lblNumero.Text = "NAS";
+            this.lblNumero.Text = "Numéro";
             // 
             // panel1
             // 
@@ -189,31 +187,33 @@
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(345, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(381, 110);
-            this.panel1.TabIndex = 51;
+            this.panel1.Size = new System.Drawing.Size(381, 138);
+            this.panel1.TabIndex = 56;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(49, 45);
+            this.label3.Location = new System.Drawing.Point(22, 76);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 46;
-            this.label3.Text = "Prénom";
+            this.label3.Text = "Responsable";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(99, 42);
+            this.textBox3.Location = new System.Drawing.Point(98, 73);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(208, 20);
             this.textBox3.TabIndex = 45;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(99, 68);
+            this.button1.Location = new System.Drawing.Point(98, 99);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 44;
@@ -223,18 +223,34 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 19);
+            this.label2.Location = new System.Drawing.Point(62, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 43;
             this.label2.Text = "Nom";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(47, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.TabIndex = 42;
+            this.label1.Text = "Numéro";
+            // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(99, 16);
+            this.textBox2.Location = new System.Drawing.Point(98, 47);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(208, 20);
             this.textBox2.TabIndex = 41;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(98, 21);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(70, 20);
+            this.textBox1.TabIndex = 40;
             // 
             // listBox1
             // 
@@ -244,37 +260,21 @@
             "2 \tOlivin Audet"});
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(308, 368);
-            this.listBox1.TabIndex = 50;
+            this.listBox1.Size = new System.Drawing.Size(308, 355);
+            this.listBox1.TabIndex = 55;
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(98, 149);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 49;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 152);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 13);
-            this.label4.TabIndex = 50;
-            this.label4.Text = "Date naissance";
-            // 
-            // PATI01
+            // PHAR01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 390);
+            this.ClientSize = new System.Drawing.Size(741, 379);
             this.Controls.Add(this.btnModifierMedicament);
             this.Controls.Add(this.btnAjouterMedicament);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.listBox1);
-            this.Name = "PATI01";
-            this.Text = "Gestion de patients";
+            this.Name = "PHAR01";
+            this.Text = "PHAR01";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -304,9 +304,9 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
     }
 }
