@@ -16,5 +16,11 @@ namespace SysPharmacie
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            WIZZ01 c = new WIZZ01();
+            c.Show();
+        }
     }
 }

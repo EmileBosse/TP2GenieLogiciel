@@ -65,8 +65,53 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WIZZ01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WIZZ01.Designer.cs">
+      <DependentUpon>WIZZ01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WIZZ02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WIZZ02.Designer.cs">
+      <DependentUpon>WIZZ02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WIZZ03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WIZZ03.Designer.cs">
+      <DependentUpon>WIZZ03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WIZZ04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WIZZ04.Designer.cs">
+      <DependentUpon>WIZZ04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WIZZ05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WIZZ05.Designer.cs">
+      <DependentUpon>WIZZ05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WIZZ06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WIZZ06.Designer.cs">
+      <DependentUpon>WIZZ06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WIZZ07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WIZZ07.Designer.cs">
+      <DependentUpon>WIZZ07.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ACCE01.resx">
       <DependentUpon>ACCE01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MEDI01.resx">
       <DependentUpon>MEDI01.cs</DependentUpon>
@@ -80,6 +125,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WIZZ01.resx">
+      <DependentUpon>WIZZ01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WIZZ02.resx">
+      <DependentUpon>WIZZ02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WIZZ03.resx">
+      <DependentUpon>WIZZ03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WIZZ04.resx">
+      <DependentUpon>WIZZ04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WIZZ05.resx">
+      <DependentUpon>WIZZ05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WIZZ06.resx">
+      <DependentUpon>WIZZ06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WIZZ07.resx">
+      <DependentUpon>WIZZ07.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
