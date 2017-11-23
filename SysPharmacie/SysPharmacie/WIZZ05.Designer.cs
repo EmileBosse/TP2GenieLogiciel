@@ -32,16 +32,16 @@
             this.btnTerminerPrescription = new System.Windows.Forms.Button();
             this.btnPrecedentPrescription = new System.Windows.Forms.Button();
             this.gbPharmacien = new System.Windows.Forms.GroupBox();
+            this.lblNumLicencePharmacien = new System.Windows.Forms.Label();
+            this.lblPrenomPharamcien = new System.Windows.Forms.Label();
+            this.lblNomPharmacien = new System.Windows.Forms.Label();
+            this.txtNumLicencePharmacien = new System.Windows.Forms.TextBox();
+            this.txtPrenomPharmacien = new System.Windows.Forms.TextBox();
+            this.txtNomPharmacien = new System.Windows.Forms.TextBox();
             this.lblPrixPrescription = new System.Windows.Forms.Label();
             this.lblNbRenouvellementPrescription = new System.Windows.Forms.Label();
             this.txtNbRenouvellementPrescription = new System.Windows.Forms.TextBox();
             this.txtPrixPrescription = new System.Windows.Forms.TextBox();
-            this.txtNomPharmacien = new System.Windows.Forms.TextBox();
-            this.txtPrenomPharmacien = new System.Windows.Forms.TextBox();
-            this.txtNumLicencePharmacien = new System.Windows.Forms.TextBox();
-            this.lblNomPharmacien = new System.Windows.Forms.Label();
-            this.lblPrenomPharamcien = new System.Windows.Forms.Label();
-            this.lblNumLicencePharmacien = new System.Windows.Forms.Label();
             this.gbPharmacien.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,6 +90,54 @@
             this.gbPharmacien.TabStop = false;
             this.gbPharmacien.Text = "Pharmacien :";
             // 
+            // lblNumLicencePharmacien
+            // 
+            this.lblNumLicencePharmacien.AutoSize = true;
+            this.lblNumLicencePharmacien.Location = new System.Drawing.Point(6, 74);
+            this.lblNumLicencePharmacien.Name = "lblNumLicencePharmacien";
+            this.lblNumLicencePharmacien.Size = new System.Drawing.Size(72, 13);
+            this.lblNumLicencePharmacien.TabIndex = 5;
+            this.lblNumLicencePharmacien.Text = "Num. licence:";
+            // 
+            // lblPrenomPharamcien
+            // 
+            this.lblPrenomPharamcien.AutoSize = true;
+            this.lblPrenomPharamcien.Location = new System.Drawing.Point(6, 48);
+            this.lblPrenomPharamcien.Name = "lblPrenomPharamcien";
+            this.lblPrenomPharamcien.Size = new System.Drawing.Size(46, 13);
+            this.lblPrenomPharamcien.TabIndex = 4;
+            this.lblPrenomPharamcien.Text = "Prénom:";
+            // 
+            // lblNomPharmacien
+            // 
+            this.lblNomPharmacien.AutoSize = true;
+            this.lblNomPharmacien.Location = new System.Drawing.Point(6, 22);
+            this.lblNomPharmacien.Name = "lblNomPharmacien";
+            this.lblNomPharmacien.Size = new System.Drawing.Size(32, 13);
+            this.lblNomPharmacien.TabIndex = 3;
+            this.lblNomPharmacien.Text = "Nom:";
+            // 
+            // txtNumLicencePharmacien
+            // 
+            this.txtNumLicencePharmacien.Location = new System.Drawing.Point(94, 71);
+            this.txtNumLicencePharmacien.Name = "txtNumLicencePharmacien";
+            this.txtNumLicencePharmacien.Size = new System.Drawing.Size(100, 20);
+            this.txtNumLicencePharmacien.TabIndex = 2;
+            // 
+            // txtPrenomPharmacien
+            // 
+            this.txtPrenomPharmacien.Location = new System.Drawing.Point(94, 45);
+            this.txtPrenomPharmacien.Name = "txtPrenomPharmacien";
+            this.txtPrenomPharmacien.Size = new System.Drawing.Size(100, 20);
+            this.txtPrenomPharmacien.TabIndex = 1;
+            // 
+            // txtNomPharmacien
+            // 
+            this.txtNomPharmacien.Location = new System.Drawing.Point(94, 19);
+            this.txtNomPharmacien.Name = "txtNomPharmacien";
+            this.txtNomPharmacien.Size = new System.Drawing.Size(100, 20);
+            this.txtNomPharmacien.TabIndex = 0;
+            // 
             // lblPrixPrescription
             // 
             this.lblPrixPrescription.AutoSize = true;
@@ -122,54 +170,6 @@
             this.txtPrixPrescription.Size = new System.Drawing.Size(100, 20);
             this.txtPrixPrescription.TabIndex = 29;
             // 
-            // txtNomPharmacien
-            // 
-            this.txtNomPharmacien.Location = new System.Drawing.Point(94, 19);
-            this.txtNomPharmacien.Name = "txtNomPharmacien";
-            this.txtNomPharmacien.Size = new System.Drawing.Size(100, 20);
-            this.txtNomPharmacien.TabIndex = 0;
-            // 
-            // txtPrenomPharmacien
-            // 
-            this.txtPrenomPharmacien.Location = new System.Drawing.Point(94, 45);
-            this.txtPrenomPharmacien.Name = "txtPrenomPharmacien";
-            this.txtPrenomPharmacien.Size = new System.Drawing.Size(100, 20);
-            this.txtPrenomPharmacien.TabIndex = 1;
-            // 
-            // txtNumLicencePharmacien
-            // 
-            this.txtNumLicencePharmacien.Location = new System.Drawing.Point(94, 71);
-            this.txtNumLicencePharmacien.Name = "txtNumLicencePharmacien";
-            this.txtNumLicencePharmacien.Size = new System.Drawing.Size(100, 20);
-            this.txtNumLicencePharmacien.TabIndex = 2;
-            // 
-            // lblNomPharmacien
-            // 
-            this.lblNomPharmacien.AutoSize = true;
-            this.lblNomPharmacien.Location = new System.Drawing.Point(6, 22);
-            this.lblNomPharmacien.Name = "lblNomPharmacien";
-            this.lblNomPharmacien.Size = new System.Drawing.Size(32, 13);
-            this.lblNomPharmacien.TabIndex = 3;
-            this.lblNomPharmacien.Text = "Nom:";
-            // 
-            // lblPrenomPharamcien
-            // 
-            this.lblPrenomPharamcien.AutoSize = true;
-            this.lblPrenomPharamcien.Location = new System.Drawing.Point(6, 48);
-            this.lblPrenomPharamcien.Name = "lblPrenomPharamcien";
-            this.lblPrenomPharamcien.Size = new System.Drawing.Size(46, 13);
-            this.lblPrenomPharamcien.TabIndex = 4;
-            this.lblPrenomPharamcien.Text = "Prénom:";
-            // 
-            // lblNumLicencePharmacien
-            // 
-            this.lblNumLicencePharmacien.AutoSize = true;
-            this.lblNumLicencePharmacien.Location = new System.Drawing.Point(6, 74);
-            this.lblNumLicencePharmacien.Name = "lblNumLicencePharmacien";
-            this.lblNumLicencePharmacien.Size = new System.Drawing.Size(72, 13);
-            this.lblNumLicencePharmacien.TabIndex = 5;
-            this.lblNumLicencePharmacien.Text = "Num. licence:";
-            // 
             // WIZZ05
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,7 +184,7 @@
             this.Controls.Add(this.btnTerminerPrescription);
             this.Controls.Add(this.btnPrecedentPrescription);
             this.Name = "WIZZ05";
-            this.Text = "Wizzard Prescription (Étape fin)";
+            this.Text = "Assitant Prescription (Étape fin)";
             this.gbPharmacien.ResumeLayout(false);
             this.gbPharmacien.PerformLayout();
             this.ResumeLayout(false);

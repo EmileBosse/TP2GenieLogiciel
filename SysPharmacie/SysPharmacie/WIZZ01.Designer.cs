@@ -83,7 +83,7 @@
             this.Controls.Add(this.btnRenouveler);
             this.Controls.Add(this.btnNvlPrescription);
             this.Name = "WIZZ01";
-            this.Text = "Wizzard Prescription";
+            this.Text = "Assistant Prescription";
             this.Load += new System.EventHandler(this.WIZZ01_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

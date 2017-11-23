@@ -223,7 +223,7 @@
             this.Controls.Add(this.lblNom);
             this.Controls.Add(this.lblNumero);
             this.Name = "MEDI02";
-            this.Text = "Ajout d\'un médecin";
+            this.Text = "Ajout d\'un médicament";
             ((System.ComponentModel.ISupportInitialize)(this.udnUnitePosologie)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.udnJoursPosologie)).EndInit();
             this.ResumeLayout(false);

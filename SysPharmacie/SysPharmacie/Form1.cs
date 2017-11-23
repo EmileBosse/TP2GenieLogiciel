@@ -21,6 +21,8 @@ namespace SysPharmacie
         {
             WIZZ01 c = new WIZZ01();
             c.Show();
+            PRES01 n = new PRES01();
+            n.Show();
         }
     }
 }

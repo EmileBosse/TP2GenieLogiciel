@@ -41,13 +41,12 @@
             this.lblPrenomMed = new System.Windows.Forms.Label();
             this.lblNomMed = new System.Windows.Forms.Label();
             this.lblNumLicenceMed = new System.Windows.Forms.Label();
-            this.lblNbResultat = new System.Windows.Forms.Label();
-            this.cbxMed = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnPrecedentMed = new System.Windows.Forms.Button();
             this.btnSuivantMed = new System.Windows.Forms.Button();
             this.btnCancelMed = new System.Windows.Forms.Button();
             this.btnAjoutNvMedecin = new System.Windows.Forms.Button();
+            this.lblNbResultat = new System.Windows.Forms.Label();
             this.gbMedecinInfo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,7 +84,7 @@
             this.gbMedecinInfo.Size = new System.Drawing.Size(200, 182);
             this.gbMedecinInfo.TabIndex = 2;
             this.gbMedecinInfo.TabStop = false;
-            this.gbMedecinInfo.Text = "Medecin trouvé:";
+            this.gbMedecinInfo.Text = "Médecin trouvé:";
             // 
             // txtNoTelMed
             // 
@@ -167,24 +166,6 @@
             this.lblNumLicenceMed.TabIndex = 0;
             this.lblNumLicenceMed.Text = "numéro license:";
             // 
-            // lblNbResultat
-            // 
-            this.lblNbResultat.AutoSize = true;
-            this.lblNbResultat.Location = new System.Drawing.Point(13, 40);
-            this.lblNbResultat.Name = "lblNbResultat";
-            this.lblNbResultat.Size = new System.Drawing.Size(104, 13);
-            this.lblNbResultat.TabIndex = 3;
-            this.lblNbResultat.Text = "\"nombre de résultat\"";
-            // 
-            // cbxMed
-            // 
-            this.cbxMed.FormattingEnabled = true;
-            this.cbxMed.Location = new System.Drawing.Point(12, 56);
-            this.cbxMed.Name = "cbxMed";
-            this.cbxMed.Size = new System.Drawing.Size(121, 21);
-            this.cbxMed.TabIndex = 4;
-            this.cbxMed.Text = "\"choisir parmi les résultats\"";
-            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(12, 83);
@@ -231,6 +212,15 @@
             this.btnAjoutNvMedecin.Text = "Ajouter Nouveau Médecin";
             this.btnAjoutNvMedecin.UseVisualStyleBackColor = true;
             // 
+            // lblNbResultat
+            // 
+            this.lblNbResultat.AutoSize = true;
+            this.lblNbResultat.Location = new System.Drawing.Point(13, 40);
+            this.lblNbResultat.Name = "lblNbResultat";
+            this.lblNbResultat.Size = new System.Drawing.Size(132, 13);
+            this.lblNbResultat.TabIndex = 3;
+            this.lblNbResultat.Text = "\"message erreur si aucun\"";
+            // 
             // WIZZ02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,13 +231,12 @@
             this.Controls.Add(this.btnSuivantMed);
             this.Controls.Add(this.btnPrecedentMed);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.cbxMed);
             this.Controls.Add(this.lblNbResultat);
             this.Controls.Add(this.gbMedecinInfo);
             this.Controls.Add(this.btnRechercheMedecin);
             this.Controls.Add(this.txtRechercheMedecin);
             this.Name = "WIZZ02";
-            this.Text = "Wizzard Prescription (Étape 1)";
+            this.Text = "Assistant Prescription (Étape 1)";
             this.gbMedecinInfo.ResumeLayout(false);
             this.gbMedecinInfo.PerformLayout();
             this.ResumeLayout(false);
@@ -270,12 +259,11 @@
         private System.Windows.Forms.Label lblPrenomMed;
         private System.Windows.Forms.Label lblNomMed;
         private System.Windows.Forms.Label lblNumLicenceMed;
-        private System.Windows.Forms.Label lblNbResultat;
-        private System.Windows.Forms.ComboBox cbxMed;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnPrecedentMed;
         private System.Windows.Forms.Button btnSuivantMed;
         private System.Windows.Forms.Button btnCancelMed;
         private System.Windows.Forms.Button btnAjoutNvMedecin;
+        private System.Windows.Forms.Label lblNbResultat;
     }
 }

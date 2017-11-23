@@ -125,7 +125,7 @@
             this.Controls.Add(this.btnPrecedentMedicament);
             this.Controls.Add(this.listMedicament);
             this.Name = "WIZZ07";
-            this.Text = "Wizzard Renouvellement (Étape 2)";
+            this.Text = "Assistant Renouvellement (Étape 2)";
             this.ResumeLayout(false);
             this.PerformLayout();
 
