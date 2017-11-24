@@ -170,7 +170,7 @@
             this.Controls.Add(this.lblNom);
             this.Controls.Add(this.lblNumero);
             this.Name = "PHAR02";
-            this.Text = "PHAR02";
+            this.Text = "Ajout d\'une pharmacie";
             this.ResumeLayout(false);
             this.PerformLayout();
 

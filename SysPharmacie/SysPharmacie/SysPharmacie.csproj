@@ -99,6 +99,12 @@
     <Compile Include="PHAR01.Designer.cs">
       <DependentUpon>PHAR01.cs</DependentUpon>
     </Compile>
+    <Compile Include="PHAR02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHAR02.Designer.cs">
+      <DependentUpon>PHAR02.cs</DependentUpon>
+    </Compile>
     <Compile Include="PRES01.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PHAR01.resx">
       <DependentUpon>PHAR01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAR02.resx">
+      <DependentUpon>PHAR02.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRES01.resx">
       <DependentUpon>PRES01.cs</DependentUpon>
